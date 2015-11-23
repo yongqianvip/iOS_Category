@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.author             = { "yongqianvip" => "yongqianvip@163.com" }
 
 
-  s.platform     = :ios, "6.0"
+  s.platform     = :ios
 
   s.source       = { :git => "https://github.com/yongqianvip/iOS_Category.git", :tag => "0.0.1" }
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "iOS_Category/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "AddPodTest/Classes/**/*.h"
+  s.public_header_files = "iOS_Category/Classes/**/*.h"
 
   s.requires_arc = true
 
