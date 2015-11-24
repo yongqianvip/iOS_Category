@@ -4,6 +4,6 @@ a simple project for iOS Category
 * pod 'iOS_Category'
 * 这些类目分为Foundation 和 UI 两部分 , 
 根据需要 
-#import <Foundation_Category.h>
+#import < Foundation_Category.h >
 或者
-#import <UI_Category.h>
+#import < UI_Category.h >
